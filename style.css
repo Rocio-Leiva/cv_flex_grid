@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'InterRegular';
+    src: url(./InterRegular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'InterRegular';
+    font-size:medium;
+}
+
+li {
+    list-style: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-width: 100wh;
+    min-height: 80vh;
+    border: 0.2rem solid black;
+    justify-content: space-around;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    flex-wrap: nowrap;
+
+}
+
+.fotoId {
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+.datos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombreFrase {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.direccion {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 2%;
+}
+
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 47%;
+    justify-content: center;
+    background-color: #7BDFFF40;
+}
+
+.empresas {
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 100%;
+    width: 60%;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+
+}
+
+.imagenMapa {
+    display: flex;
+    height: 80%;
+    width: 40%;
+   margin-left: 5%;
+
+}
+
+.formacionSkills {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #F8C86E40;
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    margin-left: 5%;
+  
+    
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #F3A2A140;
+    width: 180%;
+    height: 85%;
+    align-self: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.skills h3{
+    background-color: white;
+}
